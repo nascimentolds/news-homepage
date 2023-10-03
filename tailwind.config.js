@@ -7,10 +7,34 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        softOrange: 'hsl(35, 77%, 62%)',
+        softRed: 'hsl(5, 85%, 63%)',
+        offWhite: 'hsl(36, 100%, 99%)',
+        grayishBlue: 'hsl(233, 8%, 79%)',
+        darkGrayishBlue: 'hsl(236, 13%, 42%)',
+        veryDarkBlue: 'hsl(240, 100%, 5%)',
+      },
+      fontFamily: {
+        'inter': ['var(--font-inter)', 'sans-serif'],
+      },
+      animation: {
+        openmenu: 'openmenu 500ms ease-in',
+        closemenu: 'closemenu 500ms ease-in',
+      },
+      keyframes: {
+        openmenu: {
+          // initial position
+          '0%': { right: '-300px' },
+          // final position
+          '100%': { right: '0px' }
+        },
+        closemenu: {
+          // initial position
+          '0%': { right: '0px' },
+          // final position
+          '100%': { right: '-300px' }
+        },
       },
     },
   },
