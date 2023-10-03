@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My solution on Frontend Mentor](https://www.frontendmentor.io/solutions/landing-page-nextjs-and-tailwind-css-eAuQNNMjvE)
-- Live Site URL: [See my solution running](https://fylo-dark-theme-landing-page-master-one-rho.vercel.app/)
+- Solution URL: [My solution on Frontend Mentor](https://www.frontendmentor.io/solutions/news-homepage-using-nextjs-GpE8x3eByQ)
+- Live Site URL: [See my solution running](https://news-homepage-eight-mu.vercel.app/)
 
 ## My process
 
